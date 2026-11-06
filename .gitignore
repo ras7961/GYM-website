@@ -1,0 +1,65 @@
+# ==========================================
+# Universal .gitignore Template
+# ==========================================
+
+# --- System Files ---
+.DS_Store
+.DS_Store?
+._*
+Thumbstacks.db
+Ehthumbs.db
+Log.txt
+*.log
+*.tmp
+*.bak
+
+# --- Common IDEs & Editors ---
+# VS Code
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+
+# JetBrains (IntelliJ, WebStorm, PyCharm, etc.)
+.idea/
+*.iws
+*.iml
+*.ipr
+
+# --- Node / JavaScript (Frontend/Backend) ---
+node_modules/
+/jspm_packages/
+.npm
+.eslintcache
+.stylelintcache
+/build
+/dist
+/coverage
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.env/
+.venv/
+pip-log.txt
+pip-delete-this-directory.txt
+.pytest_cache/
+.mypy_cache/
+
+# --- macOS / Linux / Windows artifacts ---
+.Spotlight-V100
+.Trashes
+desktop.ini
+$RECYCLE.BIN/
